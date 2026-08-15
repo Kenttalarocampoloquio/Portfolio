@@ -19,6 +19,15 @@ navLinks.forEach((link) => {
     navLinks.forEach((l) => l.classList.remove("active"));
     link.classList.add("active");
     scrollToId(id);
+
+    // Close mobile menu if open
+    const navList = document.getElementById("navLinks");
+    const toggle = document.getElementById("navToggle");
+    if (navList && toggle) {
+      navList.classList.remove("open");
+      toggle.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
   });
 });
 
@@ -54,3 +63,15 @@ const navIo = new IntersectionObserver(
   { threshold: 0.5, rootMargin: `-${headerHeight}px 0px -50% 0px` },
 );
 sections.forEach((s) => navIo.observe(s));
+
+// Hamburger menu toggle
+const toggle = document.getElementById("navToggle");
+const navList = document.getElementById("navLinks");
+
+if (toggle && navList) {
+  toggle.addEventListener("click", () => {
+    const isOpen = navList.classList.toggle("open");
+    toggle.classList.toggle("open", isOpen);
+    toggle.setAttribute("aria-expanded", isOpen);
+  });
+}
