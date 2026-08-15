@@ -292,17 +292,17 @@ h3 {
 @media (max-width: 480px) {
   .hero {
     padding: 40px 20px 64px;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
   }
 
   .hero-eyebrow {
-    align-self: flex-start;
+    align-self: center;
   }
 
   .hero .hero-actions,
   .hero .social-row {
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .hero-text h1 {
