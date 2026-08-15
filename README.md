@@ -1,10 +1,12 @@
 # Portfolio
 
-My personal portfolio — a look at who I am, the skills I've built, and the programming languages I've picked up over my years of learning.
+My personal portfolio: a look at who I am, the skills I've built, and the programming languages I've picked up over my years of learning.
 
 ## About
 
-I'm Kent Ampoloquio, a 3rd year BS Information Technology student who enjoys turning ideas into working software — front end, back end, and everything wired in between.
+I'm Kent Ampoloquio, a 3rd year BS Information Technology student who enjoys turning ideas into working software
+
+front end, back end, and everything wired in between.
 
 ## Sections
 
