@@ -22,19 +22,6 @@ front end, back end, and everything wired in between.
 - CSS3
 - JavaScript (vanilla)
 
-## Getting Started
-
-Clone the repo and open `main.html` in your browser, or run a local server:
-
-\`\`\`bash
-git clone https://github.com/Kenttalarocampoloquio/Portfolio.git
-cd Portfolio
-php -S localhost:8000
-\`\`\`
-
-Then visit `http://localhost:8000/main.html`.
-
 ## Contact
-
+- Portfolio: (https://kenttalarocampoloquio.github.io/Portfolio/)
 - Email: ampoloquiokenttalaroc@gmail.com
-- GitHub: [@Kenttalarocampoloquio](https://github.com/Kenttalarocampoloquio)
